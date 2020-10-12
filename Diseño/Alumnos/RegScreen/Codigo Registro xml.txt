@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondoo" />
+
+    <TextView
+        android:id="@+id/regregistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Registrar Usuario"
+        android:textAlignment="center"
+        android:textColor="#2B2B2B"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="356dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Usuario"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/redondeadolayout"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="  Usuario"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#8F8F8F" />
+
+            <EditText
+                android:id="@+id/DNI"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/redondeadolayout"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="  Nro de Documento"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#8F8F8F" />
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="false"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/redondeadolayout"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="  E-mail"
+                android:inputType="textEmailAddress"
+                android:textColor="#1C1C1C"
+                android:textColorHint="#8F8F8F" />
+
+            <EditText
+                android:id="@+id/CodEstablecimiento"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/redondeadolayout"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="  Cod. Establecimiento"
+                android:inputType="textPersonName"
+                android:textColor="#1C1C1C"
+                android:textColorHint="#8F8F8F" />
+
+            <EditText
+                android:id="@+id/Curso"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/redondeadolayout"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="  Curso: Año y Division Ej. 3A"
+                android:inputType="textPersonName"
+                android:textColor="#1C1C1C"
+                android:textColorHint="#8F8F8F" />
+
+            <TextView
+                android:id="@+id/regregistrar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="casual"
+                android:text="*En caso de no saberlo pedirselo al establecimiento"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/usr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Contraseña"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/redondeadolayout"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="  Contraseña"
+                android:inputType="textPassword"
+                android:textColor="#1C1C1C"
+                android:textColorHint="#8F8F8F" />
+
+            <EditText
+                android:id="@+id/verificarContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/redondeadolayout"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="  Verifique Contraseña"
+                android:inputType="textPassword"
+                android:textColor="#1C1C1C"
+                android:textColorHint="#8F8F8F" />
+
+            <Button
+                android:id="@+id/botonsiguiente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/botonredondeado"
+                android:backgroundTint="#E91E63"
+                android:text="REGISTRAR"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/botonVolver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/botonredondeado"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:text="SALIR"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
