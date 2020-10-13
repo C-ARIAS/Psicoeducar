@@ -1,0 +1,122 @@
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<View
+    android:id="@+id/view14"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondoo" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="412dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/comencemos"
+        android:textSize="25sp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="5dp"
+        android:background="#2D2F31"
+        tools:layout_marginRight="280dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="¿Cuántas ganas tuve hoy de aprender?"
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/dormido"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/sleep"
+
+            tools:layout_marginRight="50dp" />
+
+        <View
+            android:id="@+id/triste"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/sad"
+            tools:layout_marginRight="50dp" />
+
+        <View
+            android:id="@+id/feliz"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/smiletwo"
+            tools:layout_marginRight="50dp" />
+
+        <View
+            android:id="@+id/contento"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/smile"
+            tools:layout_marginRight="50dp" />
+
+        <View
+            android:id="@+id/enamorado"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/love" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ascoas_1" />
+
+        <Button
+            android:id="@+id/siguienteFormulario1"
+            android:layout_width="602dp"
+            android:layout_height="113dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="#00FBFBFB"
+            android:gravity="center|right"
+            android:text="Siguiente"
+            android:textColor="#555555"
+            android:textSize="24sp" />
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

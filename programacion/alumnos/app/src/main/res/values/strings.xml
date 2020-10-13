@@ -9,4 +9,12 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="empezar">EMPEZAR</string>
+    <string name="ver_video_nuevamente">VER VIDEO NUEVAMENTE</string>
+    <string name="salir">SALIR</string>
+    <string name="qu_tal">¿QUÉ TAL?</string>
+    <string name="qu_tal">¿QUÉ TAL?</string>
+    <string name="nos_interesa_conocer_c_mo_est_s_hoy">NOS INTERESA CONOCER CÓMO ESTÁS HOY</string>
+    <string name="eleg_el_personaje_que_identifique_tu_estado_de_nimo">¡Elegí el personaje que identifique tu estado de ánimo!</string>
+    <string name="siguiente2">Siguiente</string>
 </resources>
